@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sumuyzzz/react-tally/static/css/main.4275b15f.css",
-    "main.js": "/Sumuyzzz/react-tally/static/js/main.def7a137.js",
-    "static/js/787.985306f3.chunk.js": "/Sumuyzzz/react-tally/static/js/787.985306f3.chunk.js",
-    "index.html": "/Sumuyzzz/react-tally/index.html",
-    "main.4275b15f.css.map": "/Sumuyzzz/react-tally/static/css/main.4275b15f.css.map",
-    "main.def7a137.js.map": "/Sumuyzzz/react-tally/static/js/main.def7a137.js.map",
-    "787.985306f3.chunk.js.map": "/Sumuyzzz/react-tally/static/js/787.985306f3.chunk.js.map"
+    "main.css": "/sumuyzzz/react-tally/static/css/main.4275b15f.css",
+    "main.js": "/sumuyzzz/react-tally/static/js/main.4c5a181b.js",
+    "static/js/787.985306f3.chunk.js": "/sumuyzzz/react-tally/static/js/787.985306f3.chunk.js",
+    "index.html": "/sumuyzzz/react-tally/index.html",
+    "main.4275b15f.css.map": "/sumuyzzz/react-tally/static/css/main.4275b15f.css.map",
+    "main.4c5a181b.js.map": "/sumuyzzz/react-tally/static/js/main.4c5a181b.js.map",
+    "787.985306f3.chunk.js.map": "/sumuyzzz/react-tally/static/js/787.985306f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4275b15f.css",
-    "static/js/main.def7a137.js"
+    "static/js/main.4c5a181b.js"
   ]
 }

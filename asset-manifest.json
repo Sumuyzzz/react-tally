@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-tally/static/css/main.4275b15f.css",
-    "main.js": "/react-tally/static/js/main.7cd6a391.js",
-    "static/js/787.985306f3.chunk.js": "/react-tally/static/js/787.985306f3.chunk.js",
-    "index.html": "/react-tally/index.html",
-    "main.4275b15f.css.map": "/react-tally/static/css/main.4275b15f.css.map",
-    "main.7cd6a391.js.map": "/react-tally/static/js/main.7cd6a391.js.map",
-    "787.985306f3.chunk.js.map": "/react-tally/static/js/787.985306f3.chunk.js.map"
+    "main.css": "/Sumuyzzz/react-tally/tree/gh-pages/static/css/main.4275b15f.css",
+    "main.js": "/Sumuyzzz/react-tally/tree/gh-pages/static/js/main.eb66f0d7.js",
+    "static/js/787.985306f3.chunk.js": "/Sumuyzzz/react-tally/tree/gh-pages/static/js/787.985306f3.chunk.js",
+    "index.html": "/Sumuyzzz/react-tally/tree/gh-pages/index.html",
+    "main.4275b15f.css.map": "/Sumuyzzz/react-tally/tree/gh-pages/static/css/main.4275b15f.css.map",
+    "main.eb66f0d7.js.map": "/Sumuyzzz/react-tally/tree/gh-pages/static/js/main.eb66f0d7.js.map",
+    "787.985306f3.chunk.js.map": "/Sumuyzzz/react-tally/tree/gh-pages/static/js/787.985306f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4275b15f.css",
-    "static/js/main.7cd6a391.js"
+    "static/js/main.eb66f0d7.js"
   ]
 }

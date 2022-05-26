@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode,  useState } from 'react';
 import { Link } from 'react-router-dom';
 import Categorization from '../components/tally/Categorization';
 import Echarts from '../lib/echarts';

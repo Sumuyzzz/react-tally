@@ -6,7 +6,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Label from './routes/label';
 import Home from './routes/statistics';
 import Tally from './routes/tally';
-import Tag from './components/label/TagEdit';
+import Tag from './components/labels/TagEdit';
 
 const rootElement = document.getElementById('root') as HTMLElement;
 

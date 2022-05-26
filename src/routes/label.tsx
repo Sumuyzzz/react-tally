@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { useTags } from '../states/useStates';
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
-import Button from '../components/label/Button';
+import Button from '../components/labels/Button';
 const Wrapper = styled.div`
   font-size: 16px;
 

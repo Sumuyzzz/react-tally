@@ -5,7 +5,7 @@ import Categorization from '../components/tally/Categorization';
 import Calculation from '../components/tally/Calculator/Calculation';
 import DateRamrk from '../components/Date';
 import { useRecords } from '../states/useStates';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import AddTagButton from '../components/tally/AddTagButton';
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';

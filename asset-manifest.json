@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-tally/static/css/main.4275b15f.css",
-    "main.js": "/react-tally/static/js/main.3862d540.js",
+    "main.js": "/react-tally/static/js/main.1a5d3248.js",
     "static/js/787.985306f3.chunk.js": "/react-tally/static/js/787.985306f3.chunk.js",
     "index.html": "/react-tally/index.html",
     "main.4275b15f.css.map": "/react-tally/static/css/main.4275b15f.css.map",
-    "main.3862d540.js.map": "/react-tally/static/js/main.3862d540.js.map",
+    "main.1a5d3248.js.map": "/react-tally/static/js/main.1a5d3248.js.map",
     "787.985306f3.chunk.js.map": "/react-tally/static/js/787.985306f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4275b15f.css",
-    "static/js/main.3862d540.js"
+    "static/js/main.1a5d3248.js"
   ]
 }

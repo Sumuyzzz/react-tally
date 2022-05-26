@@ -135,7 +135,7 @@ const useRecords = () => {
     window.localStorage.setItem('records', JSON.stringify(records));
   }, [records]);
   const addRecords = (record: RecordItem) => {
-    console.log(record);
+
     setRecords([...records, record]);
     alert('数据已提交');
   };

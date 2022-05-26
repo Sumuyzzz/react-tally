@@ -45,7 +45,7 @@ const Tag: React.FC = () => {
   let { id: idString } = useParams<'id'>();
 
   let tag = getTag(Number(idString));
-  console.log(tag);
+
   let navigate = useNavigate();
   const content = () => (
     <div>

@@ -43,7 +43,9 @@ const Container = styled.div`
 const Tag: React.FC = () => {
   const { updateTags, getTag, deleteTags } = useTags();
   let { id: idString } = useParams<'id'>();
+
   let tag = getTag(Number(idString));
+  console.log(tag);
   let navigate = useNavigate();
   const content = () => (
     <div>

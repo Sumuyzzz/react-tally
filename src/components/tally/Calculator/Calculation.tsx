@@ -1,6 +1,5 @@
 import Calculation from './Wrapper';
 import input from './Input';
-import { Icon } from '@iconify/react';
 
 type Props = {
   value: string;

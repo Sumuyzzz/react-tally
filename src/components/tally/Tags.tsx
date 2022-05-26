@@ -34,7 +34,7 @@ const Tags: React.FC<Props> = (props) => {
 
   const [xTags,yTags]= tags as { id: number; name: string }[][]
 
-
+  console.log(xTags);
   const selectedTagIds = props.value;
 
   const onToggleTag = (tagID: number) => {
@@ -52,7 +52,7 @@ const Tags: React.FC<Props> = (props) => {
   
   const typeTags = () => {
     let typeTags = props.type === '-' ? xTags : yTags
-    
+
       return (
         <ul>
           {typeTags.map((tag) => (

@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { useUpdate } from '../lib/hooks';
 import createID from '../lib/id-creator';
@@ -8,7 +7,9 @@ const useTags = () => {
   const [tags, setTags] = useState<any[]>([[], []]);
 
   useEffect(() => {
-    let localTags = JSON.parse(window.localStorage.getItem('tags') || '[]');
+    let localTags = JSON.parse(
+      window.localStorage.getItem('tags') || '[[],[]]'
+    );
     if (localTags.length === 0) {
       localTags = [
         [
@@ -87,7 +88,7 @@ const useTags = () => {
     window.localStorage.setItem('tags', JSON.stringify(tags));
   }, tags);
   const getTag = (id: number) => {
-    return tags.find((i) => i.id === id)!;
+    return tags.flat().find((i) => i.id === id)!;
   };
   const addTag = () => {
     const tagName = prompt('请输入标签名');
@@ -126,9 +127,9 @@ const useTags = () => {
 };
 
 const useRecords = () => {
-  const [records, setRecords] = useState < RecordItem[]>([]);
+  const [records, setRecords] = useState<RecordItem[]>([]);
   useEffect(() => {
-    setRecords(JSON.parse(window.localStorage.getItem('records')||'[]'));
+    setRecords(JSON.parse(window.localStorage.getItem('records') || '[]'));
   }, []);
   useUpdate(() => {
     window.localStorage.setItem('records', JSON.stringify(records));

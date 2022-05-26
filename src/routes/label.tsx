@@ -51,9 +51,10 @@ const Label = () => {
     <Wrapper>
       <div className='labelTags'>
         <ul>
-          {tags.map((tag) => (
+          {tags.flat().map((tag) => (
             <Link to={String(tag.id)} key={tag.id}>
               <li key={tag.id}>
+                {tag.id}
                 {tag.name}
                 <Icon
                   icon='clarity:caret-line'

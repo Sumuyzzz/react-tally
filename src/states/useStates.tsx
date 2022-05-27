@@ -10,7 +10,7 @@ const useTags = () => {
     let localTags = JSON.parse(
       window.localStorage.getItem('tags') || '[[],[]]'
     );
-    if (localTags.length === 0) {
+    if (localTags[0].length === 0) {
       localTags = [
         [
           {
@@ -82,6 +82,7 @@ const useTags = () => {
         ],
       ];
     }
+    console.log('y');
     setTags(localTags);
   }, []);
   useUpdate(() => {

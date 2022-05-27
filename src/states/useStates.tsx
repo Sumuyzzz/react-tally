@@ -105,7 +105,11 @@ const useTags = () => {
   };
 
   const updateTags = (id: number, { name }: { name: string }) =>
-    setTags(tags.map((tag) => (tag.id === id ? { id, name: name } : tag)));
+    setTags(
+      tags.flat().map((tag) => {
+        return tag.id === id ? { id, name: name } : tag;
+      })
+    );
   const deleteTags = (id: number) =>
     setTags(tags.filter((tag) => tag.id !== id));
 
@@ -135,7 +139,6 @@ const useRecords = () => {
     window.localStorage.setItem('records', JSON.stringify(records));
   }, [records]);
   const addRecords = (record: RecordItem) => {
-
     setRecords([...records, record]);
     alert('数据已提交');
   };

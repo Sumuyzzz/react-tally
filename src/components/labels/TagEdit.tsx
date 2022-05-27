@@ -54,6 +54,7 @@ const Tag: React.FC = () => {
           title='标签名'
           value={tag.name}
           onChange={(e) => {
+            console.log(e.target.value)
             updateTags(tag.id, { name: e.target.value });
           }}
         />

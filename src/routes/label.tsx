@@ -54,7 +54,6 @@ const Label = () => {
           {tags.flat().map((tag) => (
             <Link to={String(tag.id)} key={tag.id}>
               <li key={tag.id}>
-                {tag.id}
                 {tag.name}
                 <Icon
                   icon='clarity:caret-line'

@@ -1,253 +1,181 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+<p align='center'>
+  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+</p>
 
+<p align='center'>
+快速地<sup><em>Vitesse</em></sup> 创建 Web 应用
+<br> 
+</p>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<br>
 
-  <h3 align="center">Best-README-Template</h3>
+<p align='center'>
+<a href="https://vitesse.netlify.app/">在线 Demo</a>
+</p>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+<br>
 
+<p align='center'>
+<a href="https://github.com/antfu/vitesse/blob/main/README.md">English</a> | <b>简体中文</b>
+</p>
 
+<br>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## 特性
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- 🗂 [基于文件的路由](./src/pages)
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+- 📦 [组件自动化加载](./src/components)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+- 🍍 [使用 Pinia 的状态管理](https://pinia.esm.dev/)
 
-Use the `BLANK_README.md` to get started.
+- 📑 [布局系统](./src/layouts)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
+- 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
+- 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-### Built With
+- 🌍 [I18n 国际化开箱即用](./locales)
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+- 🗒 [Markdown 支持](https://github.com/antfu/vite-plugin-md)
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+- 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- 🤙🏻 默认开启 [响应性语法糖](https://vuejs.org/guide/extras/reactivity-transform.html) 
 
+- 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
 
+- 🖨 使用 [vite-ssg](https://github.com/antfu/vite-ssg) 进行服务端生成 (SSG)
 
-<!-- GETTING STARTED -->
-## Getting Started
+- 🦔 使用 [critters](https://github.com/GoogleChromeLabs/critters) 的生成关键 CSS
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+- 🦾 TypeScript, 当然
 
-### Prerequisites
+- ⚙️ 结合 [GitHub Actions](https://github.com/features/actions)，使用 [Vitest](https://github.com/vitest-dev/vitest) 进行单元测试, [Cypress](https://cypress.io/) 进行 E2E 测试
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- ☁️ 零配置部署 Netlify
 
-### Installation
+<br>
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+## 预配置
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### UI 框架
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [UnoCSS](https://github.com/antfu/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
+### Icons
 
+- [Iconify](https://iconify.design) - 使用任意的图标集，浏览：[🔍Icônes](https://icones.netlify.app/)
+- [UnoCSS 的纯 CSS 图标方案](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### 插件
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+- [Vue Router](https://github.com/vuejs/vue-router)
+  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - 以文件系统为基础的路由
+  - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - 页面布局系统
+- [Pinia](https://pinia.esm.dev) - 直接的, 类型安全的, 使用 Composition api 的轻便灵活的 Vue 状态管理
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - 自动加载组件
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 等，无需导入
+- [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
+- [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md) - Markdown 作为组件，也可以让组件在 Markdown 中使用
+  - [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism) - [Prism](https://prismjs.com/) 的语法高亮
+  - [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - 利用 CSS 变量自定义 Prism.js 的主题
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - 国际化
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vue I18n 的 Vite 插件
+- [VueUse](https://github.com/antfu/vueuse) - 实用的 Composition API 工具合集
+- [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - 站点地图生成器
+- [`@vueuse/head`](https://github.com/vueuse/head) - 响应式地操作文档头信息
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### 编码风格
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- 使用 Composition API 地 [`<script setup>` SFC 语法](https://github.com/vuejs/rfcs/pull/227)
+- [ESLint](https://eslint.org/) 配置为 [@antfu/eslint-config](https://github.com/antfu/eslint-config), 单引号, 无分号.
 
+### 开发工具
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vitest](https://github.com/vitest-dev/vitest) - 基于 Vite 的单元测试框架
+- [Cypress](https://cypress.io/) - E2E 测试
+- [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
+- [`vite-ssg`](https://github.com/antfu/vite-ssg) - 服务端生成
+  - [critters](https://github.com/GoogleChromeLabs/critters) - 关键 CSS 生成器
+- [Netlify](https://www.netlify.com/) - 零配置的部署
+- [VS Code 扩展](./.vscode/extensions.json)
+  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - 自动启动 Vite 服务器
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE 支持
+  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - 图标内联显示和自动补全
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - 多合一的 I18n 支持
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
+## 衍生项目
 
-<!-- ROADMAP -->
-## Roadmap
+由于这个模板的业务场景非常的局限，下面提供了一个精心策划的列表，列出了社区维护的具有不同偏好和功能集的衍生项目。也可以看看他们。当然也欢迎你 PR 提供自己的项目！
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+###### 官方
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Vitesse 的轻量版本
+- [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse 的 Nuxt 3 版本
+- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse 的 Nuxt2 桥接版本
+- [vitesse-webext](https://github.com/antfu/vitesse-webext) - 开箱即用的浏览器扩展 vite 模板
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+###### 社区
 
+[查看英文版](./README.md#community)
 
+## 现在可以试试!
 
-<!-- CONTRIBUTING -->
-## Contributing
+> Vitesse 需要 Node 版本 >=14
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### GitHub 模板
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+[使用这个模板创建仓库](https://github.com/antfu/vitesse/generate).
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### 克隆到本地
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
+```bash
+npx degit antfu/vitesse my-vitesse-app
+cd my-vitesse-app
+pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
+```
 
+## 清单
 
-<!-- LICENSE -->
-## License
+使用此模板时，请尝试按照清单正确更新您自己的信息
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+- [ ] 在 `LICENSE` 中改变作者名
+- [ ] 在 `App.vue` 中改变标题
+- [ ] 在 `vite.config.ts` 更改主机名
+- [ ] 在 `public` 目录下改变favicon
+- [ ] 移除 `.github` 文件夹中包含资助的信息
+- [ ] 整理 README 并删除路由
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+紧接着, 享受吧 :)
 
+## 使用
 
+### 开发
 
-<!-- CONTACT -->
-## Contact
+只需要执行以下命令就可以在 http://localhost:3333 中看到
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+```bash
+pnpm dev
+```
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+### 构建
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+构建该应用只需要执行以下命令
 
+```bash
+pnpm build
+```
 
+然后你会看到用于发布的 `dist` 文件夹被生成。
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+### 部署到 Netlify
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+前往 [Netlify](https://app.netlify.com/start) 并选择你的仓库, 一路 `OK` 下去，稍等一下后，你的应用将被创建.

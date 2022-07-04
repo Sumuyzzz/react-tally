@@ -6,7 +6,7 @@
 
 这是一个真实的记账项目，用于学习和记录
 
-技术：React16.8，React-Router，echarts,typescript
+技术：React18，React-Router，echarts,typescript
 
 ## 使用
 
